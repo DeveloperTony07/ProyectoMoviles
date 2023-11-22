@@ -28,6 +28,7 @@ public class act_Home extends AppCompatActivity {
 
         // Crea una instancia del fragmento que deseas cargar
         Fragment frmStart = new frm_Home();
+        Fragment frmStart = new frm_Home();
 
         // Agrega los datos al fragmento usando setArguments
         Bundle bundle = new Bundle();
