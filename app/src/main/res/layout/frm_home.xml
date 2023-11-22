@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.fragments.frm_Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtViewUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textSize="@dimen/xm_size"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/large_margin" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/large_margin" />
+
+        <Button
+            android:id="@+id/btnRegisterAppointment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/marginx_bottons"
+            android:layout_marginEnd="@dimen/marginx_bottons"
+            android:backgroundTint="@color/dark_blue"
+            android:text="@string/txt_register_appointment"
+            app:cornerRadius="5dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/large_margin" />
+
+        <Button
+            android:id="@+id/btnAppointmentsList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_appointment_list"
+            app:cornerRadius="5dp"
+            android:backgroundTint="@color/dark_blue"
+            android:layout_marginEnd="@dimen/marginx_bottons"
+            android:layout_marginStart="@dimen/marginx_bottons"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/large_margin" />
+
+        <Button
+            android:id="@+id/btnCallClient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_call_client"
+            app:cornerRadius="5dp"
+            android:backgroundTint="@color/dark_blue"
+            android:layout_marginStart="@dimen/marginx_bottons"
+            android:layout_marginEnd="@dimen/marginx_bottons"/>
+
+    </LinearLayout>
+
+</FrameLayout>

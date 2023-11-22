@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- titles-->
+    <dimen name="titles_size">32dp</dimen>
+    <dimen name="subtitle_size">20dp</dimen>
+    <dimen name="common_size">16dp</dimen>
+    <dimen name="xm_size">24dp</dimen>
+
+</resources>

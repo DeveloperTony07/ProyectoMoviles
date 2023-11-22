@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "788780921295",
+    "project_id": "proyectomoviles-6ffee",
+    "storage_bucket": "proyectomoviles-6ffee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788780921295:android:c2586b3128050ce13322ba",
+        "android_client_info": {
+          "package_name": "com.example.proyectomoviles"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0jAc-j6z1bnqNEsM-Lo_GsO9VhInywNA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

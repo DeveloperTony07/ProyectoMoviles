@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Top margin -> Used At the beginning of the activity -->
+    <dimen name="margin_top_init">48dp</dimen>
+    <!-- Common margin -> Used on the sides and small spaces -->
+    <dimen name="commun_margin">16dp</dimen>
+
+    <!-- Large margin -> Used on the large spaces -->
+    <dimen name="large_margin">32dp</dimen>
+    <!-- Side margin of the buttons -->
+    <dimen name="marginx_bottons">50dp</dimen>
+    <!-- small margin -->
+    <dimen name="small_margin">8dp</dimen>
+    <!-- buttons start -->
+    <dimen name="marginx_buttonsStart">40dp</dimen>
+
+</resources>

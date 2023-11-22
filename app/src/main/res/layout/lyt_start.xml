@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.act_Start">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/large_margin"
+        android:layout_marginStart="@dimen/commun_margin"
+        android:layout_marginEnd="@dimen/commun_margin">
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/title_welcome"
+            android:textColor="@color/dark_blue"
+            android:textSize="@dimen/titles_size"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/commun_margin" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/subtitle_welcome"
+            android:textColor="@color/dark_blue"
+            android:textSize="@dimen/subtitle_size" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/large_margin" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/welcome" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/large_margin" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/dark_blue"
+            android:text="@string/btn_login"
+            android:layout_marginStart="@dimen/marginx_bottons"
+            android:layout_marginEnd="@dimen/marginx_bottons"
+            app:cornerRadius="5dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/commun_margin" />
+
+        <Button
+            android:id="@+id/btnSeeUserList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/marginx_bottons"
+            android:layout_marginEnd="@dimen/marginx_bottons"
+            android:backgroundTint="@color/dark_blue"
+            android:text="@string/btn_user_list"
+            app:cornerRadius="5dp"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/commun_margin" />
+
+        <Button
+            android:id="@+id/btnSingUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_register"
+            android:textColor="@color/dark_blue"
+            android:backgroundTint="@color/white"
+            android:layout_marginEnd="120dp"
+            android:layout_marginStart="120dp"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

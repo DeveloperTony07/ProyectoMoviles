@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ProyectoMoviles</string>
+
+    <!-- Start act_Welcome -->
+    <string name="title_welcome">Administre sus clientes \ny casos..!</string>
+    <string name="subtitle_welcome">Asigna citas facilmente.</string>
+    <string name="btn_login">Entrar</string>
+    <string name="btn_register">Registrate</string>
+    <string name="btn_user_list">Ver lista de Usuarios</string>
+    <!-- End act_Welcome -->
+
+    <!-- Start act_Login -->
+    <string name="txt_login">Entrar</string>
+    <string name="subtitle_login">Ingrese sus datos para entrar.</string>
+    <string name="txt_id_number">Número de Cédula</string>
+    <string name="txt_password">Contraseña</string>
+    <!-- End act_Login-->
+
+    <!-- Start act_Register -->
+    <string name="txt_register">Registrarse</string>
+    <string name="subtitle_register">Crea una cuenta para entrar</string>
+    <string name="txt_user_name">Nombre de usuario</string>
+    <string name="txt_next">Siguiente</string>
+    <string name="txt_phone_number">Número de teléfono</string>
+    <string name="txt_email">Correo electronico</string>
+    <string name="txt_back">Volver</string>
+    <string name="txt_confirm_password">Confirma tu contraseña</string>
+    <!--End act_Register-->
+
+    <!-- act_UserList -->
+    <string name="txt_user_list">User list</string>
+
+    <!-- act_Start  -->
+    <string name="txt_welcome">Bienvenido </string>
+    <string name="subtitle_start">Lleva un control de tus citas.</string>
+    <string name="txt_register_appointment">Registrar cita</string>
+    <string name="txt_appointment_list">Lista de citas</string>
+
+    <!-- txt appointment name -->
+    <string name="txt_client_name">Nombre del cliente</string>
+    <string name="txt_client_id">Cédula del cliente</string>
+    <string name="txt_client_phone">Número de telefono</string>
+    <string name="txt_appointment_name">Nombre de la cita</string>
+    <string name="txt_appointment_type">Tipo de cita</string>
+    <string name = "txt_appointment_time">Tiempo de la cita</string>
+    <string name = "txt_payment_for_the_appointment">Pago de la cita</string>
+    <string name="txt_call_client">Llamar a los clientes</string>
+    <string name="txt_client_content">Contactos del cliente</string>
+
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.fragments.frm_Appointment_List">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_appointment_list"
+            android:textAlignment="center"
+            android:textSize="@dimen/titles_size"
+            android:textStyle="bold" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_size" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ListView
+                android:id="@+id/listVwAppointmentList"
+                android:layout_width="match_parent"
+                android:layout_height="453dp" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_size" />
+
+        <Button
+            android:id="@+id/btnBackAppointmentList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_back"
+            app:cornerRadius="5dp"
+            android:layout_marginEnd="@dimen/marginx_bottons"
+            android:layout_marginStart="@dimen/marginx_bottons"
+            android:backgroundTint="@color/dark_blue"/>
+
+    </LinearLayout>
+
+</FrameLayout>

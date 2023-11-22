@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">ProyectoMoviles</string>
+
+    <!-- Start act_Welcome -->
+    <!-- act_Welcome -> title -->
+    <string name="title_welcome">Manage your clients \nand cases..!</string>
+    <!-- act_Welcome -> sub_title -->
+    <string name="subtitle_welcome">Easily assign appointments.</string>
+    <!-- act_Welcome -> btn_login -->
+    <string name="btn_login">Login</string>
+    <!-- act_Welcome -> btn_Register -->
+    <string name="btn_register">Sing Up</string>
+    <!-- btn_seeList -->
+    <string name="btn_user_list">See user list</string>
+    <!-- End act_Welcome -->
+
+    <!-- Start act_Login -->
+    <!-- text login -->
+    <string name="txt_login">Login</string>
+    <!-- subtitle -->
+    <string name="subtitle_login">Enter your details to log in</string>
+    <!-- txt id number -->
+    <string name="txt_id_number">ID Number</string>
+    <!-- txt password -->
+    <string name="txt_password">Password</string>
+    <!-- End act_Login-->
+
+    <!-- Start act_Register -->
+    <!-- text register -->
+    <string name="txt_register">Register</string>
+    <!-- act_Register -> subtitle -->
+    <string name="subtitle_register">Create an account to enter</string>
+    <!-- txt User name -->
+    <string name="txt_user_name">Username</string>
+    <!-- txt next -->
+    <string name="txt_next">Next</string>
+    <!-- txt phone number -->
+    <string name="txt_phone_number">Phone number</string>
+    <!-- txt email -->
+    <string name="txt_email">Email</string>
+    <!-- txt back -->
+    <string name="txt_back">Back</string>
+    <!-- txt confirm password -->
+    <string name="txt_confirm_password">Confirm your password</string>
+    <!--End act_Register-->
+
+    <!-- act_UserList -->
+    <!-- txt- user list -->
+    <string name="txt_user_list">User list</string>
+    <!--End act_UserList -->
+
+    <!-- act_Home -->
+    <!-- txt welcome -->
+    <string name="txt_welcome">Welcome </string>
+    <!-- txt subtitle Start -->
+    <string name="subtitle_start">Keep track of your appointment</string>
+    <!-- txt register appointment -->
+    <string name="txt_register_appointment">Register appointment</string>
+    <!-- txt appointment list -->
+    <string name="txt_appointment_list">Appointment list</string>
+    <!-- End act_Home -->
+
+    <!-- frm_register_appointment -->
+    <!-- txt client name-->
+    <string name="txt_client_name">Client name</string>
+    <!-- txt client id -->
+    <string name="txt_client_id">Client id</string>
+    <!-- txt client phone -->
+    <string name="txt_client_phone">Client phone</string>
+    <!-- txt appointment name -->
+    <string name="txt_appointment_name">Appointment name</string>
+    <!-- txt appointment type -->
+    <string name="txt_appointment_type">Appointment type</string>
+    <!-- txt appointment time -->
+    <string name="txt_appointment_time">Appointment Time</string>
+    <!-- txt payment for the appointment -->
+    <string name="txt_payment_for_the_appointment">Payment for the appointment</string>
+    <!-- txt call client -->
+    <string name="txt_call_client">Call clients</string>
+    <!-- txt client contacts -->
+    <string name="txt_client_content">Client Contacts</string>
+    <!--End frm_Register_Appointment-->
+
+
+</resources>
